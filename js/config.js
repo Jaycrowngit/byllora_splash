@@ -2,8 +2,8 @@
  * Byllora Webapp Configuration & Route Endpoints
  */
 const BYLLORA_CONFIG = {
-  WEBAPP_LOGIN_URL: 'https://testing.byllora.com/signin',
-  WEBAPP_SIGNUP_URL: 'https://testing.byllora.com/signup',
+  WEBAPP_LOGIN_URL: 'https://app.byllora.com/signin',
+  WEBAPP_SIGNUP_URL: 'https://app.byllora.com/signup',
 };
 
 // Bind all auth links on DOM content loaded
