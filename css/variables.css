@@ -1,0 +1,33 @@
+:root {
+  /* Brand Colors from Figma UI */
+  --yellow: #FFD727;
+  --yellow-hover: #F0C91E;
+  --olive: #2F2707;
+  --olive-soft: #3D330A;
+  --olive-light: #4A3E0F;
+  --cream: #F6F3EA;
+  --cream-card: #FAF8F2;
+  --white: #FFFFFF;
+  --text-muted-dark: #A39B7C;
+  --text-muted-light: #5A543E;
+
+  /* Typography */
+  --font-body: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-heading: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Layout */
+  --content-max-width: 1180px;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 36px;
+  --radius-pill: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(47, 39, 7, 0.06);
+  --shadow-md: 0 8px 24px rgba(47, 39, 7, 0.10);
+  --shadow-lg: 0 16px 40px rgba(47, 39, 7, 0.16);
+
+  /* Hero image */
+  --hero-image: url("../assets/hero.jpg");
+}
