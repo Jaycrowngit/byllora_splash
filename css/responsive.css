@@ -94,6 +94,26 @@
     gap: 40px;
   }
 
+  .simple-visual-stack {
+    width: min(100%, 260px);
+    height: 350px;
+  }
+
+  .simple-visual-card {
+    width: min(100%, 220px);
+    max-width: 220px;
+  }
+
+  .simple-visual-card--dashboard {
+    left: 14px;
+    bottom: 0;
+  }
+
+  .simple-visual-card--settings {
+    right: 12px;
+    top: 8px;
+  }
+
   .floating-roles {
     display: none;
   }

@@ -241,6 +241,34 @@
   align-items: center;
 }
 
+.simple-visual-stack {
+  position: relative;
+  width: min(100%, 340px);
+  height: 420px;
+  margin: 0 auto;
+}
+
+.simple-visual-card {
+  position: absolute;
+  width: min(100%, 280px);
+  max-width: 280px;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 24px 50px rgba(47, 39, 7, 0.12);
+}
+
+.simple-visual-card--dashboard {
+  left: 22px;
+  bottom: 0;
+  z-index: 1;
+}
+
+.simple-visual-card--settings {
+  right: 18px;
+  top: 10px;
+  z-index: 2;
+}
+
 .phone-mockup-wrapper {
   position: relative;
   width: 100%;
