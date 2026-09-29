@@ -91,7 +91,7 @@
 
   .simple-layout {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 64px;
   }
 
   .simple-visual-stack {
@@ -114,8 +114,16 @@
     top: 8px;
   }
 
-  .floating-roles {
-    display: none;
+  .role-tag-1 {
+    left: calc(50% - 105px);
+  }
+
+  .role-tag-2 {
+    left: calc(50% - 105px);
+  }
+
+  .role-tag-3 {
+    right: calc(50% - 105px);
   }
 
   .features-grid {
@@ -136,6 +144,11 @@
 
 /* Small Mobile (<= 480px) */
 @media (max-width: 480px) {
+  .role-tag {
+    padding: 5px 10px;
+    font-size: 11px;
+  }
+
   .whatsapp-float {
     right: 16px;
     bottom: 16px;

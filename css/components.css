@@ -235,7 +235,7 @@
 }
 
 .step-screenshot-box {
-  width: 100%;
+  width: 65%;
   aspect-ratio: 9 / 16;
   background-color: var(--cream);
   border-radius: 20px;
@@ -250,7 +250,7 @@
 }
 
 .step-screenshot-box--feature {
-  max-width: 280px;
+  max-width: 200px;
   margin-inline: auto;
 }
 
